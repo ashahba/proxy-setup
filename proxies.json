@@ -1,0 +1,29 @@
+{
+    "_comment": "Please update the PROXY_INFO section if needed",
+    "PROXY_INFO": [
+        {
+            "http_proxy": "",
+            "_example": "http_proxy_host:http_proxy_port",
+            "https_proxy": "",
+            "_example": "https_proxy_host:https_proxy_port",
+            "ftp_proxy": "",
+            "_example": "ftp_proxy_host:ftp_proxy_port",
+            "socks_proxy": "",
+            "_example": "socks_proxy_host:socks_proxy_port",
+            "no_proxy": "",
+            "_example": "no_proxy_hosts_list",
+            "HTTP_PROXY": "",
+            "_example": "HTTP_PROXY_HOST:HTTP_PROXY_PORT",
+            "HTTPS_PROXY": "",
+            "_example": "HTTPS_PROXY_HOST:HTTPS_PROXY_PORT",
+            "FTP_PROXY": "",
+            "_example": "FTP_PROXY_HOST:FTP_PROXY_PORT",
+            "SOCKS_PROXY": "",
+            "_example": "SOCKS_PROXY_HOST:SOCKS_PROXY_PORT",
+            "NO_PROXY": "",
+            "_example": "NO_PROXY_HOSTS_LIST"
+        }
+    ],
+    "HOST_PROXY_FILE": "/etc/profile.d/proxy.sh",
+    "DOCKER_PROXY_FILE": "/etc/systemd/system/docker.service.d/http-proxy.conf"
+}
