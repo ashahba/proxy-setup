@@ -58,7 +58,7 @@ set_proxies() {
     touch proxy.sh
     touch http-proxy.conf
     HOST_PROXY_FILE=`jq '.HOST_PROXY_FILE' proxies.json`
-    DOCKER_PROXY_FILE=`jq '.HOST_PROXY_FILE' proxies.json`
+    DOCKER_PROXY_FILE=`jq '.DOCKER_PROXY_FILE' proxies.json`
 
     set_proxies
     echo "Please review generated 'proxy.sh' file and if it looks valid, copy " \
